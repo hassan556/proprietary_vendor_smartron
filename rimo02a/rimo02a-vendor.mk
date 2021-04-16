@@ -153,16 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/smartron/rimo02a/proprietary/etc/thermal-engine-srtphone.conf:system/etc/thermal-engine-srtphone.conf \
-    vendor/smartron/rimo02a/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/smartron/rimo02a/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/smartron/rimo02a/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/smartron/rimo02a/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/smartron/rimo02a/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/smartron/rimo02a/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/smartron/rimo02a/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/smartron/rimo02a/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/smartron/rimo02a/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/smartron/rimo02a/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/smartron/rimo02a/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
     vendor/smartron/rimo02a/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/smartron/rimo02a/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -684,16 +674,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqminvapi \
     libthermalclient \
-    libtime_genoff \
-    TimeService \
-    embms \
-    fastdormancy \
-    shutdownlistener \
-    CNEService \
-    QtiTetherService \
-    qcrilmsgtunnel \
-    colorservice \
-    ims \
-    imssettings \
-    qcnvitems \
-    qcrilhook
+    libtime_genoff
